@@ -15,7 +15,7 @@ I created an Amazon webpage clone that was implemented using React.js, Tailwind 
 
 ### Vercel Deployment
 
-I deployed the clone through Vercel and you can access it through this link [amazon-clone-g1ahm1x84-alifs-projects-a29bfa37.vercel.app](amazon-clone-g1ahm1x84-alifs-projects-a29bfa37.vercel.app)
+I deployed the clone through Vercel and you can access it through this link [https://amazon-clone-lake-two.vercel.app/](https://amazon-clone-lake-two.vercel.app/)
 
 ### Local Run
 
