@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# Amazon Clone - GDSC UGM Batch 2023-2024 Study Case
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I have worked on several front-end projects, but most are just vanilla HTML, JS, CSS, and/or SCSS. So, since I have been selected as a Hacker in the first stage of GDSC UGM member recruitment, I took advantage of this opportunity to develop my skills further by choosing the front-end domain as my study case.
 
-## Available Scripts
+I created an Amazon webpage clone that was implemented using React.js, Tailwind CSS, and Redux. This is my Kickstarter on learning those tech stacks, and I followed the tutorial from [Jonathan Davies: Amazon Clone in React, Tailwind CSS & Redux [2023]](https://youtu.be/pnnblIo1iO0?si=pgg5Ol8a7bmtyxwN). However, I coded the components line by line by myself while understanding how it worked. I also made some adjustments and improvements from the tutorial given. In summary, these are the list for the features that I implemented:
 
-In the project directory, you can run:
+- Interactive homepage
+- Search suggestions
+- Shop by best sellers
+- Shop by category
+- Add to cart with quantity
+- Checkout page with increment or decrement items
 
-### `npm start`
+## How to Run
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Vercel Deployment
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+I deployed the clone through Vercel and you can access it through this link [amazon-clone-g1ahm1x84-alifs-projects-a29bfa37.vercel.app](amazon-clone-g1ahm1x84-alifs-projects-a29bfa37.vercel.app)
 
-### `npm test`
+### Local Run
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+However, if any of the deployments are error, you can run the clone locally by following these steps:
 
-### `npm run build`
+#### 1. Clone the repository to your local directory
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Open your terminal on your diesired directory then run this command:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+git clone https://github.com/alif-muh/amazon-clone.git
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### 2. Install the dependencies
 
-### `npm run eject`
+Change your directory to `amazon-clone` then run `npm install` to install the dependencies or run this command:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+cd amazon-clone
+npm install
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### 3. Run the app
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Run the clone on your localhost by running this commad:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+npm run start
+```
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Then, access it through [http://localhost:3000/](http://localhost:3000/)
